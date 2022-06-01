@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html>
+<title> HOME PAGE </title>
+<style>
+body {background-color: #726d6e;}
+form {
+width:360px;
+padding:100px;
+border:1px solid gray;
+margin-left:auto;
+margin-right:auto;
+background-color:hsl(349, 8%, 73%);
+}
+button{
+color:#fff;
+background:#337ab7;
+padding:5px;
+margin-left:6px
+}
+</style>
+<body>
+<form action="registration.php" method="post">
+<h1> User registration form </h1>
+First_name:<br>
+<input type="text" name="First_name" required>
+<br>
+<br>
+Middle_name:<br>
+<input type="text" name="Middle_name" required>
+<br>
+<br>
+Last_name:<br>
+<input type="text" name="Last_name" required>
+<br>
+<br>
+Age:<br>
+<input type="number" name="Age" required>
+<br>
+<br>
+Phone_number:<br>
+<input type="tel" name="Phone_number" required>
+<br>
+<br>
+Gender:<br>
+<input type="radio" name="Gender" value="Male">Male
+<br>
+<input type="radio" name="Gender" value="Female">Female
+<br>
+<br>
+Username:<br>
+<input type="text" name="Username" required>
+<br>
+<br>
+password:<br>
+<input type="password" name="password" required>
+<br>
+<br>
+<button>Submit</button>
+<a href="index.html">submit</a>
+</form>
+</body>
+</html>
